@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ATELIER ÉCLAT — Beauty, carefully considered. A luxury beauty and wellness center in Milano offering face, skin, body, and ritual treatments." />
+    <title>ATELIER ÉCLAT — Beauty, carefully considered.</title>
+
+    <!-- Google Fonts: Cormorant Garamond (editorial serif) + Jost (clean sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Base Open Graph -->
+    <meta property="og:site_name" content="ATELIER ÉCLAT" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ATELIER ÉCLAT — Beauty, carefully considered." />
+    <meta property="og:description" content="A luxury beauty and wellness center in Milano offering face, skin, body, and ritual treatments." />
+    <meta property="og:image" content="https://images.pexels.com/photos/6635929/pexels-photo-6635929.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+    <meta property="og:url" content="https://ateliereclat.it" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ATELIER ÉCLAT — Beauty, carefully considered." />
+    <meta name="twitter:description" content="A luxury beauty and wellness center in Milano offering face, skin, body, and ritual treatments." />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/6635929/pexels-photo-6635929.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+
+    <!-- LocalBusiness structured data -->
+    <script type="application/ld+json" id="jsonld-localbusiness">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "ATELIER ÉCLAT",
+      "description": "Luxury beauty and wellness center in Milano offering face, skin, body, and ritual treatments.",
+      "url": "https://ateliereclat.it",
+      "telephone": "+39 02 1234 5678",
+      "email": "concierge@ateliereclat.it",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via della Spiga 12",
+        "addressLocality": "Milano",
+        "postalCode": "20121",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.4687,
+        "longitude": 9.1954
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://instagram.com/ateliereclat",
+        "https://tiktok.com/@ateliereclat"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
